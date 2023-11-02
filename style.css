@@ -1,0 +1,167 @@
+header h1{
+    text-align: center;
+    font-size: 75px;
+    font-family: cursive;
+    padding:50px;
+    color: white;
+
+}
+
+header{
+    background-image:url(images/Background\ photo.jpeg);
+    position: relative;
+    height: 200px;
+    background-size: cover;
+    background-position: center;    
+}
+
+
+h1:hover{
+    color: tan;
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+        }
+    
+nav {
+    background-color:tan;
+        }
+    
+.navbar {
+    display: flex;
+    justify-content:space-around;
+    padding: 20px;
+        }
+    
+a {
+    text-decoration: none;
+    font-weight:bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+        }
+    
+a:hover{
+    color:black;
+        }
+   
+
+
+img:hover{
+    transform: scale(1.2);
+
+ }
+
+
+ p{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+ 
+}
+
+ .description{
+        font-size: 20px;
+        }
+        
+ 
+        
+.price{
+         font-size: 20px;
+         font-family: Arial, Helvetica, sans-serif;
+        }
+         
+.container-grid{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3 , 1fr);
+}
+
+
+
+
+
+
+        
+.contact{
+    background-color: tan;
+    height: 500px;
+    width: 400px;
+    text-align: center;
+     padding: 20px;
+     border-radius: 20px;
+     margin-left: auto;
+    margin-right:auto;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding:50px;
+}
+.name{
+font-size: 20px;
+height: 50px;
+}
+
+
+.email{
+ font-size: 20px;
+ height: 50px;
+
+}
+
+
+
+
+.subject{
+font-size: 20px;
+height: 50px;
+}
+
+
+
+.message{
+    font-size: 20px;
+    height: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.icons{
+        display: flex;
+        justify-content:center;
+        margin-top: auto;
+        }
+    
+footer{
+        position: fixed;
+        width:100%;
+        left:0;
+        bottom:0;
+        background-color: tan;
+        background-color:tan;
+        padding: 20px;
+}
