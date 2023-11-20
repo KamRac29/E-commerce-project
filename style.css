@@ -92,7 +92,7 @@ p:hover {
   background-color: tan;
   height: 600px;
   width: 500px;
- text-align: center; 
+  text-align: center;
   padding: 10px;
   border-radius: 20px;
   margin: auto;
@@ -138,4 +138,149 @@ footer {
   bottom: 0;
   background-color: tan;
   padding: 20px;
+}
+
+@media only screen and (min-width: 1200px) {
+  header h1 {
+    font-size: 50px;
+    padding: 20px;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  a {
+    padding: 5px;
+    font-size: 18px;
+  }
+  .box {
+    padding-top: 20px;
+    padding: 20px;
+    margin: 8px 0px 0px;
+    border: 2px solid tan;
+    text-align: left;
+    margin-bottom: 100px;
+  }
+  .description {
+    font-size: 20px;
+  }
+
+  .price {
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .container-grid {
+    display: grid;
+    grid-template-columns: auto, auto, auto, auto;
+    gap: 10px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  header {
+    background-image: url(images/Background\ photo.jpeg);
+    position: relative;
+    height: 200px;
+    background-size: cover;
+    /* background-position: center; */
+  }
+
+  header h1 {
+    font-size: 40px;
+    padding: 10px;
+  }
+
+  .navbar {
+    flex-direction: column;
+    text-align: center;
+  }
+  a {
+    padding: 5px;
+    font-size: 16px;
+  }
+  .box {
+    padding-top: 10px;
+    padding: 5px;
+    border: 2px solid tan;
+    margin-bottom: 50px;
+  }
+  .description {
+    font-size: 12px;
+  }
+
+  .price {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .container-grid {
+    display: grid;
+    grid-template-columns: auto, auto;
+    gap: 10px;
+  }
+  .box img {
+    height: 100px;
+    width: 100px;
+  }
+}
+
+@media only screen and (max-width: 612px) {
+  header h1 {
+    font-size: 40px;
+    padding: 10px;
+  }
+  .navbar {
+    flex-direction: column;
+    text-align: center;
+  }
+  a {
+    padding: 5px;
+    font-size: 16px;
+  }
+  .box {
+    padding-top: 10px;
+    padding: 5px;
+    /* margin: 8px 0px 0px; */
+    border: 2px solid tan;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .description {
+    font-size: 10px;
+  }
+
+  .price {
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .container-grid {
+    /* display: grid; */
+    position: center;
+    grid-template-columns: auto;
+    gap: 5px;
+  }
+  p {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -3px;
+    margin-bottom: -3px;
+    color: tan;
+    font-weight: bold;
+  }
+  .box img {
+    height: 200px;
+    width: 200px;
+  }
+
+  footer {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    background-color: tan;
+    padding: 20px;
+  }
 }
